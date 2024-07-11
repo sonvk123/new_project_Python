@@ -1,0 +1,17 @@
+python -m venv ./venv
+source venv/Scripts/activate
+
+pip install django
+
+django-admin startproject first
+
+pip install django
+
+cd first
+
+
+python manage.py startapp employee
+python manage.py startapp test
+
+
+python manage.py runserver
